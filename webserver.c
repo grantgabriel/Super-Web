@@ -25,6 +25,8 @@ int main (int argc, char **argv) {
 
   getchar();
   MHD_stop_daemon(daemon);
+  
+  printf("The server is running on : http://localhost:8080 !");
     
   return 0;
 }
